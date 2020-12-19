@@ -1,0 +1,12 @@
+OBJ = ppFD
+#INCLUDES = -I. -I$(TOP)/X11 -I$(HOME)/X/XHPLOT
+INCLUDES = -I. -I$(TOP)/X11 
+LOCAL_LIBRARIES = $(XAWLIB) $(XMULIB) $(XTOOLLIB) $(XLIB) -lxddp
+DEFINES = -g 
+LOCAL_LDFLAGS = -L$(HOME)/lib
+SYS_LIBRARIES = -lm
+           SRCS = $(OBJ).c DoEvent.c StoreSysData.c Runge.c
+           OBJS = $(OBJ).o DoEvent.o StoreSysData.o Runge.o
+
+ComplexProgramTarget($(OBJ))
+

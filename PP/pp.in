@@ -1,0 +1,40 @@
+/* Gamma K B0 B */
+
+0.3400000000 0.6200000000 0.0900000000 0.2900000000
+
+/* number of data, usually '1'  */
+
+1
+
+/* line width */
+
+1
+
+/* initial value, x and y */
+
+1.226667 -3.013333
+
+/* direction of time, specify 1 or -1  */
+
+-1
+
+/* end time  0.0 means no limit time for integration */ 
+0
+
+/* incremental values, dgamma, dk, dB0, dB, */
+
+0.001 0.01 0.01  0.01 
+
+1					/* number of period */
+256					/* strip for integral */
+1					/* poincare flag 0 --- poincare/1 --- orbit */
+0					/* write file 0 --- not write/1 --- write */
+
+50 850 50 850     /* graph location */
+-20 20 -20 20   /* scaling xmin, xmax, ymin ymax */
+.5 .5   5 5     /* label strip & interval */
+1 1                 /* floating point */
+1                   /* axis/grid */
+fixed               /* font */
+1000 1000 1000 1000 /* arrow */
+1                   /* command */

@@ -1,0 +1,18 @@
+static char colornames[16][256] = {
+ "black"
+,"blue"
+,"red"
+,"magenta"
+,"green"
+,"cyan"
+,"yellow"
+,"white"
+,"steel blue"
+,"navy blue"
+,"navy"
+,"indian red"
+,"pink"
+,"dark green"
+,"spring green"
+,"turquoise"
+};

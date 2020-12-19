@@ -1,0 +1,16 @@
+/* GAMMA, K, B0, B, X0, Y0 */
+
+0.39820 0.62000 0.09000 0.29000 0.2925348 -1.0646094
+
+0.001 0.001 0.001 0.001		/* dk, dB0, dB */
+
+NS
+1e-12			/* eps */
+100.0		/* explode */
+1			/* number of period */
+256			/* strip for runge-kutta */
+20			/* iteration max */
+1			/* extrapolation */
+1.1			/* auto change parameter */
+1			/* increment variable gamma = 0, k = 1, B0 = 2, B = 3 */
+0	 		/* variable for Newton Method */

@@ -1,0 +1,9 @@
+/* paste following line k, B0, B, xfix, yfix */
+0.4000000000 0.6200000000 0.0900000000 0.2900000000 0.300119187002957 -1.078190431028381 
+-0.0001 0.00 0.00 0.000 /* dk, dB0, dB */
+0.000001			/* eps */
+100.0				/* explode */
+1					/* number of period */
+256					/* integral strip */
+10					/* iteration for newton method */
+2					/* extra-polation */
